@@ -1,19 +1,28 @@
 package com.company;
 
-public class Trip
-{
-    Date start, end;
-    String destination;
+public class Trip {
+    private Date start, end;
+    private String destination;
+    private float price;
 
-    public Trip(Date start, Date end, String destination)
-    {
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public Trip(Date start, Date end, String destination) {
         this.start = start;
         this.end = end;
         this.destination = destination;
     }
 
-    String getInfo()
-    {
-        return String.format("Start: %s\nKoniec: %s",this.start.getInfo(),this.end.getInfo());
+    @Override
+    public String toString() {
+        {
+            return String.format("Podróż do %s\nStart: %s\nKoniec: %s\nCena: %.2f",this.destination, this.start.toString(), this.end.toString(),getPrice());
+        }
     }
 }

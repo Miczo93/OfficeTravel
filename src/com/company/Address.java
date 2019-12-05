@@ -2,7 +2,7 @@ package com.company;
 
 public class Address
 {
-    String street,zip,city;
+    private String street,zip,city;
 
     public Address(String street, String zip, String city) {
         this.street = street;
@@ -10,8 +10,8 @@ public class Address
         this.city = city;
     }
 
-    String getInfo()
-    {
+    @Override
+    public String toString() {
         return String.format("Ulica: %s\nKod pocztowy: %s\nMiasto: %s",this.street,this.zip,this.city);
     }
 }

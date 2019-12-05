@@ -1,9 +1,15 @@
 package com.company;
 
 public class Customer {
-    String name;
-    Address address;
-    Trip trip;
+    private String name;
+    private Address address;
+    private Trip trip;
+
+    public Trip getTrip() {
+        return trip;
+    }
+
+
 
 
     public Customer(String name) {
@@ -18,7 +24,8 @@ public class Customer {
         this.trip = trip;
     }
 
-    String getInfo() {
-        return String.format("Imie: %s\nDane adresowe:\n%s\nDane wycieczkowe: %s", this.name, this.address.getInfo(), this.trip.getInfo());
+    @Override
+    public String toString() {
+        return String.format("Imie: %s\nDane adresowe:\n%s\nDane wycieczkowe: %s", this.name, this.address.toString(), this.trip.toString());
     }
 }

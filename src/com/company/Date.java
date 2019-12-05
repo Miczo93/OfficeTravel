@@ -2,7 +2,7 @@ package com.company;
 
 public class Date
 {
-    int day, month, year;
+    private int day, month, year;
 
     public Date(int day, int month, int year)
     {
@@ -11,8 +11,8 @@ public class Date
         this.year = year;
     }
 
-    public String getInfo()
-    {
+    @Override
+    public String toString() {
         return this.year + " " + this.month+ " "+ this.day;
     }
 }
