@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bf14a7b-dbce-45f3-835e-a2ed40ff1754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OfficeTravel/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfficeTravel/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TravelOffice/META-INF/TravelOffice.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +20,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/OfficeTravel" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1USpzircwanbGtWSPEANWafYUHq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,9 +43,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TravelOffice" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Test" />
       <module name="TravelOffice" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -68,7 +69,16 @@
       <updated>1575360114772</updated>
       <workItem from="1575360123359" duration="4196000" />
       <workItem from="1575377165197" duration="5957000" />
+      <workItem from="1575535681624" duration="3108000" />
     </task>
+    <task id="LOCAL-00001" summary="Dodanie klas DomesticTrip i AbroadTrip oraz parametru ceny wycieczki.">
+      <created>1575538775995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538775995</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodanie klas DomesticTrip i AbroadTrip oraz parametru ceny wycieczki." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie klas DomesticTrip i AbroadTrip oraz parametru ceny wycieczki." />
   </component>
 </project>
